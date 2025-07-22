@@ -12,8 +12,10 @@ project's `pubspec.yaml` file:
 ### Dependency
 
 ```yaml
-dependencies:
-  flutter_poolakey: ^2.2.0-1.0.0-alpha01
+  flutter_poolakey:
+    git:
+      url: https://github.com/cafebazaar/flutter_poolakey.git
+      ref: 2.2.0-1.0.0-alpha01
 ```
 
 Then run the below command to retrieve it:
